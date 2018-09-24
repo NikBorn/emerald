@@ -16,7 +16,8 @@ nav {
 
 main {
   height: calc(100vh - 38px);
-  overflow: scroll;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 header {
@@ -186,7 +187,7 @@ h5 {
 }
 
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
 
     .App {
       display: grid;
