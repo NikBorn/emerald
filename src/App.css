@@ -1,0 +1,214 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 38px;
+}
+
+main {
+  height: calc(100vh - 38px);
+  overflow: scroll;
+}
+
+header {
+  height: 550px;
+  font-family: Oswald;
+  background-image:  url('https://eufloracolorado.com/wp-content/uploads/2017/06/Home-winner.jpg');
+  /* background-color: #000000; */
+  /* box-shadow:1px 1px 5px #999; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  border-top: 1px solid #25d47b;
+  color: #25d47b;
+  width: 20%;
+  height: 38px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* text-align: center; */
+  /* padding: 6px; */
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+  padding: 20px 0 0 0;
+  color: #25d47b;
+  /* color: black; */
+   -webkit-text-stroke: 1.5px black;
+
+}
+
+h3 {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.4em;
+  line-height: 1em;
+  font-weight: 500;
+  max-width: 80%;
+}
+
+p { 
+  max-width: 80vw;
+  margin: 0 auto;
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.begining-intro {
+  color: #25d47b;
+  font-weight: 500;
+}
+
+.find-location-btn {
+  color: white;
+  background-color: #00000080;
+  font-size: 24px;
+  padding: 20px;
+  margin-top: 160px;
+  border-radius: 10px;
+}
+
+.find-location-btn:hover {
+  background-color: #00000094;
+}
+
+.divider {
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #0ec968 0%, #25d47b 30%, #fff 80% );
+}
+
+.intro p:first-of-type {
+  margin-top: 40px;
+}
+
+.intro p:last-of-type {
+  margin-bottom: 100px;
+}
+
+.find-location-btn {
+  color: white;
+  background-color: #00000080;
+  font-size: 24px;
+  padding: 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.find-location-btn:hover {
+  background-color: #00000094;
+}
+
+.email-signup-section {
+  padding-top: 40px;
+  color: white;
+  background-color: black;
+}
+
+.email-signup-section h3 {
+  font-size: 2em;
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.first-offer {
+  background-color: #0ec968;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.first-offer p {
+  font-size: 1.6em;
+  margin: 10px auto;
+  padding-bottom: 20px;
+  /* width: 60px; */
+  text-align: center;
+}
+
+.order-now-btn {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  border: 1px solid #e2e2e2;
+  background-color: transparent;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.order-now-btn:hover {
+  background-color: #ffffff;
+  transform: background-color 1s fade-in;
+  color: #1eaaf1;
+}
+
+.emerald-logo {
+  background-image: url('./images/emeraldlogo.svg');
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+}
+
+h5 {
+  margin: 20px auto 10px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+
+@media only screen and (min-width: 700px) {
+
+    .App {
+      display: grid;
+      grid-template-rows: 2;
+      grid-template-columns: 1;
+      /* background-color: magenta; */
+    } 
+
+    nav {
+        /* background-color: lightblue; */
+        grid-column: 1;
+        grid-row: 1;
+        border-bottom: 4px solid  #0ec968;
+    }
+
+    main {
+      grid-column: 1;
+      grid-row: 2;
+      /* height: 100vh; */
+    }
+
+    .hidden {
+      display: flex;
+    }
+}
