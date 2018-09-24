@@ -2,7 +2,7 @@
   "name": "emerald-concentrates",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://NikBorn.github.io/emerald/",
+  "homepage": "https://nikborn.github.io/emerald/",
   "dependencies": {
     "ajv": "^6.5.4",
     "history": "^4.7.2",
