@@ -212,4 +212,44 @@ h5 {
     .hidden {
       display: flex;
     }
+
+    header {
+        padding-top: 0;
+    }
+
+    h1 {
+      padding-top: 0;
+      font-size: 3em;
+    }
+
+    .find-location-btn {
+    margin-top: 20px;
+  }
+
+  .emerald-logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+@media only screen and (min-width: 750px) {
+  .emerald-logo {
+    width: 160px;
+    height: 160px;
+  }
+
+  .find-location-btn {
+    margin-top: 40px;
+  }
+
+  h1 {
+    padding-top: 20px;
+    font-size: 4em;
+  }
+
+  header {
+    padding-top: 40px;
+  }
+
 }
