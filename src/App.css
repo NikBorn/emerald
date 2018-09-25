@@ -8,6 +8,9 @@
 }
 
 nav {
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -18,6 +21,7 @@ main {
   height: calc(100vh - 38px);
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+
 }
 
 header {
@@ -168,7 +172,7 @@ h2 {
 .order-now-btn:hover {
   background-color: #ffffff;
   transform: background-color 1s fade-in;
-  color: #1eaaf1;
+  color: #0daa51;
 }
 
 .emerald-logo {
@@ -185,6 +189,80 @@ h5 {
 .hidden {
   display: none;
 }
+
+
+.connect-section {
+  margin-bottom: 40px;
+}
+
+.connect-title {
+  font-weight: 400;
+  margin: 20px auto;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.social-link {
+  height: 48px;
+  width: 48px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.facebook-link {
+  background-image: url('./images/facebook-6-48.png');
+}
+
+.facebook-link:hover {
+  background-image: url('./images/facebook-6-48-darker.png');
+}
+
+.twitter-link {
+  background-image: url('./images/twitter-3-48.png');
+}
+
+.twitter-link:hover {
+  background-image: url('./images/twitter-3-48-darker.png');
+}
+
+.instagram-link {
+  background-image: url('./images/instagram-3-48.png');
+}
+
+.instagram-link:hover {
+  background-image: url('./images/instagram-3-48-darker.png');
+}
+
+.need-help{
+  text-align: center;
+  margin: 20px auto;
+
+}
+
+
+.contact-button {
+  text-decoration: none;
+  display: flex;
+  background-color: #24C76C;
+  padding: 20px;
+  width: 30%;
+  margin: 20px auto;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.contact-button:hover {
+  background-color: #0daa51;
+}
+
+
+
+
 
 
 @media only screen and (min-width: 600px) {

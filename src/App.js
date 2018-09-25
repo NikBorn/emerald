@@ -40,6 +40,31 @@ class App extends Component {
               Order Now
             </button>
           </section>
+
+          <div className='connect-section'>
+
+            <h3 className='connect-title'>Connect with Us</h3>
+            <div className='link-container'>
+              <a href='https://www.facebook.com/'
+                 className='social-link facebook-link'></a>
+              <a href='https://twitter.com/'
+                 className='social-link twitter-link'></a>
+              <a href='https://www.instagram.com/'
+                 className='social-link instagram-link'></a>
+            </div>
+            <p className='need-help'>
+              Need Immediate Help?
+            </p>
+            <a href='tel:1-720-883-1603'
+               className='contact-button call-button'
+            >Call</a>
+
+            <a href='mailto:NikolausRB@gmail.com'
+              className='contact-button email-button'
+            >Email</a>
+          </div>
+
+
         </main>
         <nav>
           <a href="">Services</a> 
@@ -50,7 +75,6 @@ class App extends Component {
           <a href="" className='hidden'>Locations</a>
           <a href="" className='hidden'>New Stuff</a>
           <a href="">More</a>
-
         </nav>
       </div>
     );
